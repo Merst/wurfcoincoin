@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view){
         switch (view.getId()) {
             case R.id.wurf:
-                int wurfID = getResources().getIdentifier("wurf", "raw", getPackageName());
+                int wurfID = getResources().getIdentifier("lambmee", "raw", getPackageName());
                 MediaPlayer wurf = MediaPlayer.create(this, wurfID);
                 wurf.start();
                 break;
